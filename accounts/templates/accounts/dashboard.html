@@ -3,3 +3,16 @@
 {% block content %}
     <h1>Welcome, {{user.username}}</h1>
 {% endblock %}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+<div id="content">
+    <img src="ImagePath" class="Usename"/>
+    <div>some text...</div>
+</div>
